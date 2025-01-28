@@ -129,4 +129,4 @@ Lets see common misunderstandings and common issues you might face when you conf
       * `tenant identifier` is a mandatory thing as this is by the system to decide which tenants we are trying to connect to!
  
 ### Important
-Keep in mind that Mifos X Web App is a complex project, and you may encounter issues or need to configure additional settings based on your specific environment and requirements. It's a good practice to refer to the official Mifos X Web App documentation and the project's developer community for more details and troubleshooting!
+Keep in mind that Apache Fineract® is a complex project, and you may encounter issues or need to configure additional settings based on your specific environment and requirements. It's a good practice to refer to the official Apache Fineract® documentation and the project's developer community for more details and troubleshooting!
