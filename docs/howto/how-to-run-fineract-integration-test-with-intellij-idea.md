@@ -78,6 +78,9 @@ comments: true
            - VM options: `-ea`
            - Select `All in package` as type of search
            - Working directory: `$MODULE_WORKING_DIR$`
-             
+
+9. **Common problems while running Integration tests**
+    - On this page you might find additional informations that might be useful in case you are facing any issues around running integration tests:
+      [How to fix common issues of integration test execution](/how-to-fix-common-issues-of-integration-tests.html)
 ### Important
 Keep in mind that Apache Fineract® is a complex project, and you may encounter issues or need to configure additional settings based on your specific environment and requirements. It's a good practice to refer to the official Apache Fineract® documentation and the project's developer community for more details and troubleshooting!
