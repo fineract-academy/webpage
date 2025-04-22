@@ -39,13 +39,13 @@ Fineract was supporting 3 types of dates:
 There was no support of logical date concept which was independent from the system / tenant date
 
 Jobs were scheduled against system date (CRON), but aligned with the tenant timezone:
-  * During the job execution all the data and transactions are using the actual tenant date
-    * It could happen some transactions are written for 17th of May and other for 18th of May, if the job was executed around midnight
+  * During the job execution all the data and transactions were using the actual tenant date
+    * It could happen some transactions were written for 17th of May and other for 18th of May, if the job was executed around midnight
   * There was no support of COB
     * No backdated transactions by jobs
 
 **There was no support to logically group together transactions and store them with the same transaction date which was independent of the physical calendar of the tenant**:
-  * All the transactions and business logic are tied to a physical calendar
+  * All the transactions and business logic were tied to a physical calendar
 
 ## Business date
 
