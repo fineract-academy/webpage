@@ -15,6 +15,7 @@ Business date as a concept was introduced into Fineract with v1.8.0.
 It was business critical to add such functionality to support various banking functionalities like “Closing of Business day”, “Having Closing of Business day relevant jobs”, “Supporting logical date management”.
 
 ## Glossary
+
 | Term                             | Definition                                                                                                                                        |
 |:---------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------|
 | COB                              | Close of Business; concept of closing a business day                                                                                              |
