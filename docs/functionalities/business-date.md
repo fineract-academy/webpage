@@ -11,19 +11,20 @@ comments: true
 # Introducing Business Date into Fineract
 
 Business date as a concept was introduced into Fineract with v1.8.0. 
+
 It was business critical to add such functionality to support various banking functionalities like “Closing of Business day”, “Having Closing of Business day relevant jobs”, “Supporting logical date management”.
 
 ## Glossary
-| Term     | Definition |
-| -------- | ------- |
-|COB|Close of Business; concept of closing a business day |
-|Business day|Timeframe that logically group together actions on a particular business date |
-|Business date|Logical date; its value is not tied to the physical calendar. Represents a business day|
-|Cob date|Logical date; Represents the business date for actions during COB job execution|
-|Created date|When the transaction was created (audit purposes). Date + time|
-|Last modified date|When the transaction was last modified (audit purposes). Date + time|
-|Submitted on date / Posting date|When the transaction was posted. Tenant date or business date (depends on whether the logical date concept was introduced or not)|
-|Transaction date / Value date|The date on which the transaction occurred or to be accounted for|
+| Term                             | Definition                                                                                                                                        |
+|:---------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------|
+| COB                              | Close of Business; concept of closing a business day                                                                                              |
+| Business day                     | Timeframe that logically group together actions on a particular business date                                                                     |
+| Business date                    | Logical date; its value is not tied to the physical calendar. Represents a business day                                                           |
+| Cob date                         | Logical date; Represents the business date for actions during COB job execution                                                                   |
+| Created date                     | When the transaction was created (audit purposes). Date + time                                                                                    |
+| Last modified date               | When the transaction was last modified (audit purposes). Date + time                                                                              |
+| Submitted on date / Posting date | When the transaction was posted. Tenant date or business date (depends on whether the logical date concept was introduced or not)                 |
+| Transaction date / Value date    | The date on which the transaction occurred or to be accounted for                                                                                 |
 
 ## Before business date concept
 Fineract was supporting 3 types of dates:
