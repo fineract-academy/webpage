@@ -22,7 +22,7 @@ A new testing framework got introduced to address some of the problems with the 
 1. Handcrafted, low level API calls via REST Assured library
 2. No type-safety, instead manual JSON parsing
 3. Hard to read and understand
-4. Full of duplicated logics and configurations
+4. Full of duplicated logics and configurationse
 5. etc.
 
 **The new framework is using:**
