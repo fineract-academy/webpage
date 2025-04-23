@@ -42,7 +42,7 @@ A new testing framework got introduced to address some of the problems with the 
    - IntelliJ IDEA will analyze the project and download its dependencies.
 3. **Configure JDK:**
    - Verify that IntelliJ IDEA is using the correct Java SDK. Go to `File` > `Project Structure`.
-   - In the Project Structure dialog, under `Project`, make sure the `Project SDK` is set to the appropriate Java version (Java 17 is the latest supported).
+   - In the Project Structure dialog, under `Project`, make sure the `Project SDK` is set to the appropriate Java version (Java 21 is the latest supported).
 4. **Gradle Configuration:**
    - Open the `build.gradle` file in the project root directory.
    - IntelliJ IDEA will automatically start downloading the dependencies, if not you can do it manually as well by opening the "Gradle" window and click on `Reload All Gradle Projects`.
