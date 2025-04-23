@@ -10,7 +10,7 @@ comments: true
 ## How to run Apache Fineract® integration tests with IntelliJ IDEA
 
 ### Prerequisites
-1. **Java**: Ensure you have Java Development Kit (JDK) installed. Apache Fineract® typically requires Java 17 (Java 21 is not yet supported).
+1. **Java**: Ensure you have Java Development Kit (JDK) installed. Apache Fineract® requires Java 21.
 2. **Git**: You'll need Git to clone the Apache Fineract® source code from the repository.
 3. **IntelliJ IDEA**: Install IntelliJ IDEA (Community or Ultimate edition).
 4. **Configure IntelliJ Runner to be used for executing the integration tests
@@ -28,7 +28,7 @@ comments: true
    - IntelliJ IDEA will analyze the project and download its dependencies.
 3. **Configure JDK:**
    - Verify that IntelliJ IDEA is using the correct Java SDK. Go to `File` > `Project Structure`.
-   - In the Project Structure dialog, under `Project`, make sure the `Project SDK` is set to the appropriate Java version (Java 17 is the latest supported).
+   - In the Project Structure dialog, under `Project`, make sure the `Project SDK` is set to the appropriate Java version (Java 21 is the latest supported).
 4. **Gradle Configuration:**
    - Open the `build.gradle` file in the project root directory.
    - IntelliJ IDEA will automatically start downloading the dependencies, if not you can do it manually as well by opening the "Gradle" window and click on `Reload All Gradle Projects`.
