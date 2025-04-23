@@ -183,3 +183,6 @@ Modified all the relevant places where the tenant date was used:
 * Community Over Code NA 2023 Session
   * Slides: https://communityovercode.org/wp-content/uploads/2023/10/tues_fintech_adamsaghy_cob-adam-saghy.pdf
   * Video: https://www.youtube.com/watch?v=V5Ly6f9LGsk
+
+### Important
+Keep in mind that Apache Fineract® is a complex project, and you may encounter issues or need to configure additional settings based on your specific environment and requirements. It's a good practice to refer to the official Apache Fineract® documentation and the project's developer community for more details and troubleshooting!
