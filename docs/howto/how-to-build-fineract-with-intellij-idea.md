@@ -10,7 +10,7 @@ comments: true
 ## How to build Apache Fineract® with IntelliJ IDEA
 
 ### Prerequisites
-1. **Java**: Ensure you have Java Development Kit (JDK) installed. Apache Fineract® typically requires Java 21 (Java 21 is not yet supported).
+1. **Java**: Ensure you have Java Development Kit (JDK) installed. Apache Fineract® requires Java 21.
 2. **Git**: You'll need Git to clone the Apache Fineract® source code from the repository.
 3. **IntelliJ IDEA**: Install IntelliJ IDEA (Community or Ultimate edition).
    
