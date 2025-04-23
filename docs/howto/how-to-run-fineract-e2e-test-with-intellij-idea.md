@@ -10,7 +10,7 @@ comments: true
 ## How to run Apache Fineract® E2E tests with IntelliJ IDEA
 
 ### Prerequisites
-1. **Java**: Ensure you have Java Development Kit (JDK) installed. Apache Fineract® typically requires Java 17 (Java 21 is not yet supported).
+1. **Java**: Ensure you have Java Development Kit (JDK) installed. Apache Fineract® typically requires Java 21 (Java 21 is not yet supported).
 2. **Git**: You'll need Git to clone the Apache Fineract® source code from the repository.
 3. **IntelliJ IDEA**: Install IntelliJ IDEA (Community or Ultimate edition).
 4. **Cucumber for Java plugin**: Install the Cucumber for Java plugin in IntelliJ IDEA for easier execution
