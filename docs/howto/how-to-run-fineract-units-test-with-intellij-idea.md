@@ -44,7 +44,7 @@ comments: true
          - Go to `Run` > `Edit Configurations`.
          - Click the `+` button and select `JUnit`.
          - In the configuration settings:
-           - Set the JDK: `Java 17` (example)
+           - Set the JDK: `Java 21` (example)
            - Choose the `fineract.fineract-provider.test` module
            - VM options: `-ea`
            - Select `Class` as type of search
@@ -70,7 +70,7 @@ comments: true
          - Go to `Run` > `Edit Configurations`.
          - Click the `+` button and select `JUnit`.
          - In the configuration settings:
-           - Set the JDK: `Java 17` (example)
+           - Set the JDK: `Java 21` (example)
            - Choose the `fineract.fineract-provider.test` module
            - VM options: `-ea`
            - Select `All in directory` as type of search
