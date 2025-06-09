@@ -3,6 +3,7 @@ description: unofficial learning space of Apache Fineract®
 theme: just-the-docs
 ga_tracking: G-ZN98YLHK30
 url: https://fineract-academy.com
+comments: false
 
 # External navigation links
 nav_external_links:
